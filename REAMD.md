@@ -44,25 +44,29 @@ A nonprofit foundation named `Alphabet Soup` aims to build a deep learning model
 
       I used a single neuron in the output layer (units = 1) with a `sigmoid` activation function (activation = "sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between `0` and `1`, representing the probability of the positive class.
         
-        <img src="images/simple_model_result.PNG" alt="Alternative text" />
+        ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model_result.png)
 
         ### Optimized Neural Networks:
      
         * The first neural network model named *`first_model`*, is a two-layer architecture with a specific choice for the number of neurons, layers, and activation functions. By selecting 20 neurons in the first hidden layer (units_1 = 20), 30 neurons in the second hidden layer (units_2 = 30), and using the ReLU activation function (activation="relu") for both hidden layers. The number of epoch for the *`first_model`* were set 50. The choice of `ReLU` activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable. 
 
         <img src="images/first_model.PNG" alt="Alternative text" />
+        ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model_result.png)
         
         I used a single neuron in the output layer (units = 1) with a `sigmoid` activation function (activation = "sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between `0` and `1`, representing the probability of the positive class.
         
         <img src="images/first_model_result.PNG" alt="Alternative text" />
+        ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model_result.png)
 
         * The second neural network model named *`second_model`*, is a three-layer architecture with a specific choice for the number of neurons, layers, and activation functions. By selecting 50 neurons in the first hidden layer (units_1 = 50), 100 neurons in the second hidden layer (units_2 = 100), 200 neurons in the second hidden layer (units_2 = 200), and using the `ReLU` activation function (activation = "relu") for all the hidden layers. The number of epoch for the *`second_model`* were set 75. The choice of ReLU activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable. 
 
         <img src="images/second_model.PNG" alt="Alternative text" />
+        ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model_result.png)
         
         I used a single neuron in the output layer (units = 1) with a `sigmoid` activation function (activation = "sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between `0` and `1`, representing the probability of the positive class.
         
         <img src="images/second_model_result.PNG" alt="Alternative text" />
+        ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model_result.png)
     
   * Were you able to achieve the target model performance?
     
@@ -74,14 +78,15 @@ A nonprofit foundation named `Alphabet Soup` aims to build a deep learning model
       
       * Increasing the number of epochs gives the model more opportunities to learn from the data and adjust the weights. It allows the model to refine its predictions and find better parameter values, which can lead to improved accuracy. However, it's important to find a balance as increasing epochs excessively can lead to overfitting.
     
-    2. Removing only `EIN` and not `NAME` column: 
+    2. Removing only the `EIN` and not the `NAME` column: 
       * In the first neural network i.e. *`simple_model`*, I removed both the `EIN` and `NAME` columns as instructed, which resulted in 73% accuracy, but in the optimization notebook, I only removed the `EIN` column, which helped in improving the accuracy from `73%` to `76%`.
       
      <img src='images/dropping_EIN.PNG' alt="Alternative text" />
-     
-     <img src='images/NAME_value_counts.PNG' alt="Alternative text" />
+     ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/dropping_EIN.png)
+
+     ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/NAME_value_counts.png)
 
 
 ## 3. Summary:
 
-The model built at the start, without the `EIN` and `NAME` columns, did not perform well and only gave an accuracy of `73%`. In an attempt to optimize the model, or increase the accuracy of the model, when I kept the `NAME` column and also added some extra hidden layers along with increased the number of neurons, I was finally able to acheive an accuracy greater than `75%`.
+The model built at the start, without the `EIN` and `NAME` columns, did not perform well and only gave an accuracy of `73%`. In an attempt to optimize the model, or increase the accuracy of the model, when I kept the `NAME` column and also added some extra hidden layers along with increasing the number of neurons, I was finally able to achieve an accuracy greater than `75%`.

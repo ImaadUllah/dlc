@@ -50,22 +50,18 @@ A nonprofit foundation named `Alphabet Soup` aims to build a deep learning model
      
         * The first neural network model named *`first_model`*, is a two-layer architecture with a specific choice for the number of neurons, layers, and activation functions. By selecting 20 neurons in the first hidden layer (units_1 = 20), 30 neurons in the second hidden layer (units_2 = 30), and using the ReLU activation function (activation="relu") for both hidden layers. The number of epoch for the *`first_model`* were set 50. The choice of `ReLU` activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable. 
 
-        <img src="images/first_model.PNG" alt="Alternative text" />
         ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/first_model.png)
         
         I used a single neuron in the output layer (units = 1) with a `sigmoid` activation function (activation = "sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between `0` and `1`, representing the probability of the positive class.
         
-        <img src="images/first_model_result.PNG" alt="Alternative text" />
         ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/first_model_result.png)
 
         * The second neural network model named *`second_model`*, is a three-layer architecture with a specific choice for the number of neurons, layers, and activation functions. By selecting 50 neurons in the first hidden layer (units_1 = 50), 100 neurons in the second hidden layer (units_2 = 100), 200 neurons in the second hidden layer (units_2 = 200), and using the `ReLU` activation function (activation = "relu") for all the hidden layers. The number of epoch for the *`second_model`* were set 75. The choice of ReLU activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable. 
 
-        <img src="images/second_model.PNG" alt="Alternative text" />
         ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/second_model.png)
         
         I used a single neuron in the output layer (units = 1) with a `sigmoid` activation function (activation = "sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between `0` and `1`, representing the probability of the positive class.
         
-        <img src="images/second_model_result.PNG" alt="Alternative text" />
         ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/second_model_result.png)
     
   * Were you able to achieve the target model performance?

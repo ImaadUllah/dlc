@@ -40,7 +40,7 @@ A nonprofit foundation named `Alphabet Soup` aims to build a deep learning model
         ### Simple Neural Network:  
         * The first neural network model named *`simple_model`*, is a two-layer architecture with a specific choice for the number of neurons, layers, and activation functions. By selecting 15 neurons in the first hidden layer (units_1 = 15), 25 neurons in the second hidden layer (units_2 = 25), and using the `ReLU` activation function (activation = "relu") for both hidden layers. The number of epoch for the *`simple_model`* were set to 30. The choice of `ReLU` activation helps introduce non-linearity and allows the model to learn complex relationships between the input features and the target variable. 
 
-[](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model.png)
+![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/simple_model.png)
         
         I used a single neuron in the output layer (units = 1) with a `sigmoid` activation function (activation = "sigmoid") to model the binary classification problem. The sigmoid activation function maps the output to a range between `0` and `1`, representing the probability of the positive class.
         

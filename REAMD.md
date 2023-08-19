@@ -81,7 +81,6 @@ A nonprofit foundation named `Alphabet Soup` aims to build a deep learning model
     2. Removing only the `EIN` and not the `NAME` column: 
       * In the first neural network i.e. *`simple_model`*, I removed both the `EIN` and `NAME` columns as instructed, which resulted in 73% accuracy, but in the optimization notebook, I only removed the `EIN` column, which helped in improving the accuracy from `73%` to `76%`.
       
-     <img src='images/dropping_EIN.PNG' alt="Alternative text" />
      ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/dropping_EIN.png)
 
      ![Alt text](https://github.com/ImaadUllah/dlc/blob/main/images/NAME_value_counts.png)
